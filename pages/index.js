@@ -1,16 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/Header'
+import Head from 'next/head';
+import Image from 'next/image';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Facebook</title>        
+        <title>Facebook</title>
       </Head>
-      <h1>Hello Facebook</h1>
 
-      {/* Header */} 
+      {/* Header */}
       <Header />
       <main>
         {/* Sidebar */}
@@ -18,5 +17,5 @@ export default function Home() {
         {/* Widgets */}
       </main>
     </div>
-  )
+  );
 }
