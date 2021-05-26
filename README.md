@@ -37,11 +37,11 @@ Reference: https://stackoverflow.com/questions/55175445/cant-import-svg-into-nex
 * yarn add tailwind-scrollbar-hide
 
 ### Next-Auth.js (FBLogin Config: https://next-auth.js.org/providers/facebook)
-* Create .env.local file and add following config
+* Create .env.local file and add the following config
 
   ```
-  FACEBOOK_CLIENT_ID= put your FB AppID
-  FACEBOOK_CLIENT_SECRET=put your FB App Secret Key
+  FACEBOOK_CLIENT_ID=put your FB AppID
+  FACEBOOK_CLIENT_SECRET=put your FB App SecretKey
   NEXTAUTH_URL=http://localhost:3000
 
   ```
